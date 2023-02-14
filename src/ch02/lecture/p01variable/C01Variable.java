@@ -45,7 +45,7 @@ public class C01Variable {
 		int var5;
 //		System.out.println(var5);
 		
-		// 변수명 작성 시 어떤 값을 갖는지 알아볼 수 있도록 할 것.
+		// 변수명 작성 시 어떤 값을 갖는지 알아볼 수 있도록 작성할 것.
 		int koreanScore;
 		int ks; // 약어로 하지 말자.
 		int englishScore;
