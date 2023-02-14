@@ -10,7 +10,7 @@ public class MainShortCut {
 		// 실행 ctrl + F11
 		// 창크기 변경 ctrl + m
 		// 한줄 지우기 ctrl + d
-		// 줄 옮기기 ctrl + 방향키위아래
+		// 줄 옮기기 alt + 방향키위아래
 		// 힌트얻기 ctrl + space
 	}
 }
