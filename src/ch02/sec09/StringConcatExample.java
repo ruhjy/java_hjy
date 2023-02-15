@@ -3,7 +3,7 @@ package ch02.sec09;
 public class StringConcatExample {
 	public static void main(String[] args) {
 		// 숫자 연산
-		int result1 = 10 + 2 + 8;
+		int result1 = 10 + 2 + 8; // 20
 		System.out.println("result1 = " + result1);
 
 		// 결합 연산
