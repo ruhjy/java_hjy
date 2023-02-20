@@ -3,7 +3,7 @@ package ch04.sec02;
 public class IfDiceExample {
 	public static void main(String[] args) {
 
-		int num = (int) (Math.random() * 6) + 1; // 1 ~ 6 ( 1 <= x < 7 )
+		int num = (int) (Math.random() * 6) + 1; // 1 ~ 6 ( 1 <= num < 7 )
 		System.out.println("num = " + num);
 
 		if (num == 1) {
