@@ -3,7 +3,7 @@ package ch04.exercise;
 public class Example02 {
 	public static void main(String[] args) {
 
-		String grade = "B";
+		String grade = "A";
 
 		int score1 = 0;
 
