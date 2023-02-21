@@ -10,7 +10,7 @@ public class ExampleFor03 {
 				sum += i;
 			}
 		}
-		// i += 3; sum += i;
+		//  i += 3; sum += i;
 
 		System.out.println("1~100까지의 정수 중에서 3의 배수의 총합 : " + sum);
 	}

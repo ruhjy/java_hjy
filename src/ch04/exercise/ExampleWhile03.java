@@ -3,6 +3,7 @@ package ch04.exercise;
 public class ExampleWhile03 {
 	public static void main(String[] args) {
 
+		
 		// 방법1
 		int i = 1;
 		int sum = 0;
