@@ -28,4 +28,14 @@ public class Solution120892 {
 			return answer;
 		}
 	}
+
+	class Solution { // 국진이형님
+		public String solution(String cipher, int code) {
+			String answer = "";
+			for (int i = code - 1; i < cipher.length(); i += code) {
+				answer += String.valueOf(cipher.charAt(i));
+			}
+			return answer;
+		}
+	}
 }
