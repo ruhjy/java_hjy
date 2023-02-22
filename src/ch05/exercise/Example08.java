@@ -24,6 +24,7 @@ public class Example08 {
 			rowSum += array[i].length;
 			for (int j = 0; j < array[i].length; j++) {
 				totalSum += array[i][j];
+//				cnt++;
 			}
 		}
 
