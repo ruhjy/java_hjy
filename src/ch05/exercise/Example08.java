@@ -1,9 +1,5 @@
 package ch05.exercise;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
 public class Example08 {
 	public static void main(String[] args) {
 
