@@ -27,7 +27,7 @@ public class Car {
 				gas -= 1;
 			} else {
 				System.out.println("멈춥니다.(gas잔량:" + gas + ")");
-				return;
+				return; // 메서드 종료
 			}
 		}
 	}
