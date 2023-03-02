@@ -1,6 +1,6 @@
 package ch06.lecture.p05this;
 
-public class C01This {
+class C01This {
 
 	public static void main(String[] args) {
 
