@@ -12,7 +12,7 @@ public class C08Constructor {
 
 		MyClass08 o4 = new MyClass08(33, "heo");
 		MyClass08 o5 = new MyClass08("heo", 33);
-		
+
 		System.out.println(o4);
 		System.out.println(o5);
 	}

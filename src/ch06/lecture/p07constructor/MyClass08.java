@@ -4,6 +4,7 @@ public class MyClass08 {
 
 	// 필드
 	String name;
+	String model;
 	int age;
 	String birthDate;
 	boolean married;
@@ -22,7 +23,6 @@ public class MyClass08 {
 		this.married = married;
 	}
 
-	// 책 224쪽에는 컴파일 에러라는데 이상 없음?
 	MyClass08(String name, int age) {
 		this.name = name;
 		this.age = age;
@@ -32,6 +32,16 @@ public class MyClass08 {
 		this.age = age;
 		this.name = name;
 	}
+
+//	MyClass08(String name, String model) {
+//		this.name = name;
+//		this.model = model;
+//	}
+//
+//	MyClass08(String model, String name) {
+//		this.model = model;
+//		this.name = name;
+//	}
 
 	// 메서드
 	public String toString() {
