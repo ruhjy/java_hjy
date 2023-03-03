@@ -2,7 +2,7 @@ package ch06.lecture.p09package;
 
 import static java.lang.Math.*;
 
-public class C08StaticImportAll {
+class C08StaticImportAll {
 	public static void main(String[] args) {
 
 //		int num1 = (int) (Math.random() * 6) + 1;
