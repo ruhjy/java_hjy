@@ -1,4 +1,4 @@
-package ch07;
+package ch07.lecture.p01inheritance;
 
 public class C07Polymorphism {
 	public static void main(String[] args) {
