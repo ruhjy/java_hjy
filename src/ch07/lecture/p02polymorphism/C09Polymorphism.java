@@ -24,4 +24,5 @@ public class C09Polymorphism {
 		o5[2].attack(); // Bow의 attack() 메서드 실행
 		o5[3].attack(); // Sword의 attack() 메서드 실행
 	}
+
 }
