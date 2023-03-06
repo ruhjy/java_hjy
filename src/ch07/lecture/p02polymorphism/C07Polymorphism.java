@@ -6,10 +6,10 @@ public class C07Polymorphism {
 		Hero hero = new Hero();
 
 		// ... 무기선택
-		Weapon w = getWeapon(1);
+		Weapon w = getWeapon(1); // new Gun();
 
 		hero.weapon = w;
-		hero.button1();
+		hero.button1(); // weapon.attack(); weapon = new Gun(); class Gun의 오버라이딩된 attack 메서드 실행
 	}
 
 	public static Weapon getWeapon(int choice) {
