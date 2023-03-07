@@ -20,12 +20,6 @@ public class Sub01 extends Super01 {
 
 	public void method3() {
 		Super01 o1 = new Super01();
-//		o1.method1(); // 다른 패키지여서 안됨
-	}
-
-	public static void main(String[] args) {
-
-		Sub01 s = new Sub01();
-		s.method2();
+//		o1.method1(); // 다른 패키지여서 안됨 & 직접 객체 생성해서 사용하는 것은 안됨
 	}
 }
