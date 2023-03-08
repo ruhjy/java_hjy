@@ -2,7 +2,6 @@ package ch08.lecture.p05cast;
 
 import java.io.*;
 import java.lang.constant.*;
-import java.util.*;
 
 public class C05Instanceof {
 	public static void main(String[] args) {
