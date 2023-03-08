@@ -5,8 +5,8 @@ public class C03ToString {
 
 		MyClass03 o1 = new MyClass03();
 		String s1 = o1.toString();
-		System.out.println(s1);
-		System.out.println(System.identityHashCode(o1));
+		System.out.println(s1); // ch12.lecture.p01object.MyClass03@6f2b958e
+		System.out.println(System.identityHashCode(o1)); // 1865127310
 
 		Object o2 = o1;
 		System.out.println(o2.toString());
