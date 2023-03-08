@@ -8,6 +8,7 @@ public class MyClass012 implements MyInterface01 {
 	}
 
 	// default 메서드도 재정의 가능
+	// 재정의 시 default 대신 public
 	@Override
 	public void method2() {
 		System.out.println("class012에서 default 메서드 method2 재정의");
