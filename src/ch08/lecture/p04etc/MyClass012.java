@@ -1,4 +1,4 @@
-package ch08.lecture.p04default_method;
+package ch08.lecture.p04etc;
 
 public class MyClass012 implements MyInterface01 {
 

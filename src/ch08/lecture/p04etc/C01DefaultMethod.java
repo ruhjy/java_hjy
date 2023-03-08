@@ -1,4 +1,4 @@
-package ch08.lecture.p04default_method;
+package ch08.lecture.p04etc;
 
 public class C01DefaultMethod {
 	public static void main(String[] args) {
