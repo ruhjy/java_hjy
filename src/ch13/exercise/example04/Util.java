@@ -7,6 +7,9 @@ public class Util {
 //	}
 
 	public static <T extends Pair<K, V>, K, V> V getValue(T type, K key) {
+
+		System.out.println("(" + type.getClass().getSimpleName() + ", " + key.getClass().getSimpleName() + ")");
+
 		if (type.getKey().equals(key)) {
 			return type.getValue();
 		}
