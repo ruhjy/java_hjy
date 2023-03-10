@@ -12,8 +12,8 @@ public class C05WildCard {
 //		addItem(o3); // xx
 	}
 
-	// out
 	public static void addItem(MyClass05<? super Number> param) {
+		// out
 		param.setItem(3);
 		param.setItem(3.14);
 	}
