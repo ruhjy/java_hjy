@@ -24,6 +24,7 @@ class MyClass08<T extends Number> {
 	}
 
 	public void handleItem() {
+		// Object 메서드
 		String str = item.toString();
 		int hash = item.hashCode();
 		boolean equals = item.equals(null);
