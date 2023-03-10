@@ -6,14 +6,23 @@ public class Util {
 //		return (Comparator<Map.Entry<K, V>> & Serializable) (c1, c2) -> c1.getKey().compareTo(c2.getKey());
 //	}
 
-	public static <T extends Pair<K, V>, K, V> V getValue(T type, K key) {
+//	public static <T extends Pair<K, V>, K, V> V getValue(T type, K key) {
+//
+//		System.out.println("(" + type.getClass().getSimpleName() + ", " + key.getClass().getSimpleName() + ")");
+//
+//		if (type.getKey().equals(key)) {
+//			return type.getValue();
+//		}
+//		return null;
+//
+//	}
 
-		System.out.println("(" + type.getClass().getSimpleName() + ", " + key.getClass().getSimpleName() + ")");
+	public static <P extends Pair<K, V>, K, V> V getValue(P pair, K key) {
+		K k = pair.getKey();
 
-		if (type.getKey().equals(key)) {
-			return type.getValue();
+		if (k.equals(key)) {
+			return pair.getValue();
 		}
 		return null;
-
 	}
 }
