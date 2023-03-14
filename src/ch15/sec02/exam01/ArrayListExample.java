@@ -4,7 +4,7 @@ import java.util.*;
 
 import ch15.lecture.p01list.*;
 
-public class ArrayListExample {
+class ArrayListExample {
 	public static void main(String[] args) {
 
 		// ArrayList 컬렉션 생성
