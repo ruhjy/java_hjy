@@ -1,6 +1,6 @@
 package codetest.codingbat;
 
-public class String2 {
+class String2 {
 
 	public String doubleChar1(String str) { // 방법1
 		String result = "";
