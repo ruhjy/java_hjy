@@ -23,6 +23,7 @@ public class Example {
 //		});
 		int max1 = maxOrMin((x, y) -> (x > y) ? x : y);
 		int max2 = maxOrMin((x, y) -> Math.max(x, y));
+		int max4 = maxOrMin(Math::max);
 		int max3 = maxOrMin((x, y) -> {
 			if (x > y) {
 				return x;
@@ -34,6 +35,7 @@ public class Example {
 		System.out.println("최대값 : " + max1);
 		System.out.println("최대값 : " + max2);
 		System.out.println("최대값 : " + max3);
+		System.out.println("최대값 : " + max4);
 		System.out.println();
 
 		// 최소값 얻기
@@ -46,6 +48,7 @@ public class Example {
 //		int min1 = maxOrMin((x, y) -> (x > y) ? y : x);
 		int min1 = maxOrMin((x, y) -> (x < y) ? x : y);
 		int min2 = maxOrMin((x, y) -> Math.min(x, y));
+		int min4 = maxOrMin(Math::min);
 		int min3 = maxOrMin((x, y) -> {
 			if (x > y) {
 				return y;
@@ -57,5 +60,6 @@ public class Example {
 		System.out.println("최소값 : " + min1);
 		System.out.println("최소값 : " + min2);
 		System.out.println("최소값 : " + min3);
+		System.out.println("최소값 : " + min4);
 	}
 }
