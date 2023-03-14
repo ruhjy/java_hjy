@@ -1,8 +1,8 @@
-package ch15.exercise.example0506;
+package ch15.exercise.exam0506;
 
 import java.util.*;
 
-public class Example0506 {
+public class Exam0506 {
 	public static void main(String[] args) {
 
 		int[][] array = {
