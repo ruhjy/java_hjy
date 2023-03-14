@@ -1,8 +1,8 @@
-package ch15.exercise.exam0509;
+package ch15.exercise.example0509;
 
 import java.util.*;
 
-public class Exam0509 {
+public class Example0509 {
 	public static void main(String[] args) {
 		// 9. 학생들의 점수를 분석하는 프로그램을 만들려고 합니다.
 		// 키보드로부터 학생 수와 각 학생들의 점수를 입력받고

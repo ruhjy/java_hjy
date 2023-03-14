@@ -1,4 +1,4 @@
-package ch15.exercise.exam0507;
+package ch15.exercise.example0507;
 
 import java.util.*;
 
