@@ -2,7 +2,7 @@ package ch15.lecture.p01list;
 
 import java.util.*;
 
-public class C01List {
+class C01List {
 	// java.util.List
 	// 순서가 있는 컬렉션
 	// 각 아이템(element, 원소)는 index로 접근 가능
