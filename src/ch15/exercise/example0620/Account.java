@@ -1,4 +1,4 @@
-package ch15.exercise.example0520;
+package ch15.exercise.example0620;
 
 public class Account {
 
