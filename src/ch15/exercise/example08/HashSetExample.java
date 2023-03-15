@@ -15,5 +15,6 @@ public class HashSetExample {
 		for (Student s : set) {
 			System.out.println(s.getStudentNum() + ": " + s.getName());
 		}
+
 	}
 }
