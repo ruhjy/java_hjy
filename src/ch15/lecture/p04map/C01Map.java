@@ -14,7 +14,6 @@ public class C01Map {
 		map.put("kang", "slamdunk");
 		map.put("serly", "avarter");
 		map.put("maverick", "topgun");
-
 		// entry의 수
 		int size = map.size();
 		System.out.println(size);
