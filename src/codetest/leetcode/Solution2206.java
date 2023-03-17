@@ -38,14 +38,23 @@ public class Solution2206 {
 //		}
 
 		// value가 홀수 인게 있으면 return false;
-		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-			int v = entry.getValue();
-			if (v % 2 == 1) {
-				return false;
-			}
-		}
+//		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+//			int v = entry.getValue();
+//			if (v % 2 == 1) {
+//				return false;
+//			}
+//		}
+//
+//		return true;
+		return map.values()
+				.stream()
+//				.allMatch(n -> n % 2 == 0);
+//				.allMatch(e -> this.even(e));
+				.allMatch(this::even);
+	}
 
-		return true;
+	private boolean even(int e) {
+		return e % 2 == 0;
 	}
 }
 
