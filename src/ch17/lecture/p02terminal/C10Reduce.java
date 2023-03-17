@@ -9,10 +9,11 @@ public class C10Reduce {
 
 		Integer sum = list.stream().map(e -> e.length()).reduce((a, b) -> a + b).get();
 		System.out.println(sum);
-		
-//		Integer sum1 = list.stream().mapToInt(String::length).reduce((a,b) -> a+b).getAsInt();
-//		Integer sum2 = list.stream().mapToInt(String::length).sum();
-//		System.out.println("sum1 : " + sum1);
-//		System.out.println("sum2 : " + sum2);
+
+		// Integer sum1 = list.stream().mapToInt(String::length).reduce((a,b) ->
+		// a+b).getAsInt();
+		// Integer sum2 = list.stream().mapToInt(String::length).sum();
+		// System.out.println("sum1 : " + sum1);
+		// System.out.println("sum2 : " + sum2);
 	}
 }
