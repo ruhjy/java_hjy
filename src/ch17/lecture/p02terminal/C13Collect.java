@@ -13,6 +13,8 @@ public class C13Collect {
 				.collect(() -> new HashMap<>(),
 						(map, e) -> map.compute(e, (k, v) -> v == null ? 1 : v + 1),
 						(a, b) -> a.putAll(b));
+		
+		
 //				.collect(HashMap::new, 
 //						(map, e) -> map.compute(e, (k, v) -> v == null ? 1 : v + 1),
 //						Map::putAll);
