@@ -19,12 +19,10 @@ public class Example2 {
 
 		developers.stream().forEach(m -> System.out.println(m.getName()));
 		System.out.println();
-		
-		Map<String, List<Member>> developers2 = list.stream()
-//				.filter(member -> member.getJob().equals("개발자"))
-//				.collect(Collectors.groupingBy(Member::getJob));
-				.collect(Collectors.groupingBy(m -> m.getJob()));
 
-		developers2.entrySet().stream().forEach(e -> System.out.println(e.getKey() + ": " + e.getValue()));
+		list.stream()
+				.filter(member -> member.getJob().equals("개발자"))
+				.map(m -> m.getName())
+				.forEach(System.out::println);
 	}
 }
