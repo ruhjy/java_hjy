@@ -16,7 +16,7 @@ public class C10Map {
 
 		stream2.forEach(System.out::println);
 
-		System.out.println("짝수 길이 스트링의 몇개인지 출력 #####");
+		System.out.println("짝수 길이의 스트링이 몇개인지 출력 #####");
 		long count = list.stream()
 //				.map(s -> s.length())
 				.map(String::length)
