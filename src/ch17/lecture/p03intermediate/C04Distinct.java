@@ -19,7 +19,7 @@ public class C04Distinct {
 //		list.add(2);
 		// 최종연산 실행시 중간연산이 한번에 실행됨
 		long count = stream2.count();
-		System.out.println("count : " + count);
+		System.out.println("count : " + count); // 3
 
 	}
 }

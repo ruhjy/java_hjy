@@ -13,12 +13,12 @@ public class C02Limit {
 		Stream<String> stream2 = stream1.limit(3); // 스트림 원소 중 3개로 제한
 
 		long count = stream2.count();
-		System.out.println("count : " + count);
+		System.out.println("count : " + count); // 3
 
 		long count2 = list.stream()
 				.limit(3)
 				.count();
-		System.out.println("count2 : " + count2);
+		System.out.println("count2 : " + count2); // 3
 
 	}
 }
