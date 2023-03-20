@@ -16,7 +16,7 @@ public class C04Distinct {
 		Stream<Integer> stream1 = list.stream();
 		Stream<Integer> stream2 = stream1.distinct();
 
-		list.add(2);
+//		list.add(2);
 		// 최종연산 실행시 중간연산이 한번에 실행됨
 		long count = stream2.count();
 		System.out.println("count : " + count);
