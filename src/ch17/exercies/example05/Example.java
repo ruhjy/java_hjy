@@ -19,6 +19,7 @@ public class Example {
 		System.out.println();
 
 		list.stream()
+//				.filter(s -> Example.havingJava(s))
 				.filter(Example::havingJava)
 				.forEach(i -> System.out.println(i));
 
