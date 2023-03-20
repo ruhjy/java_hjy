@@ -12,8 +12,8 @@ public class C10Reduce {
 
 		// Integer sum1 = list.stream().mapToInt(String::length).reduce((a,b) ->
 		// a+b).getAsInt();
-		// Integer sum2 = list.stream().mapToInt(String::length).sum();
+//		 Integer sum2 = list.stream().mapToInt(String::length).sum();
 		// System.out.println("sum1 : " + sum1);
-		// System.out.println("sum2 : " + sum2);
+//		 System.out.println("sum2 : " + sum2);
 	}
 }
