@@ -1,4 +1,4 @@
-package ch17.exercies.example05;
+package ch17.exercise.example05;
 
 import java.util.*;
 import java.util.function.*;

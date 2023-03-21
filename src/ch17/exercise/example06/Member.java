@@ -1,4 +1,4 @@
-package ch17.exercies.example06;
+package ch17.exercise.example06;
 
 public class Member {
 

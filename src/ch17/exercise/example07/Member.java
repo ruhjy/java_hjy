@@ -1,4 +1,4 @@
-package ch17.exercies.example08;
+package ch17.exercise.example07;
 
 public class Member {
 
@@ -20,6 +20,7 @@ public class Member {
 
 	@Override
 	public String toString() {
-		return "{name:" + name + ", job:" + job + "}";
+		return "name=" + name + ", job=" + job;
 	}
+
 }

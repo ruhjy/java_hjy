@@ -1,4 +1,4 @@
-package ch17.exercies.example08;
+package ch17.exercise.example08;
 
 import java.util.*;
 import java.util.stream.*;
