@@ -1,6 +1,6 @@
-package ch11.lecture.exercise.example05;
+package ch11.exercise.example05;
 
-public class Example05 {
+public class Example {
 
 	public static void m1() {
 		try {
