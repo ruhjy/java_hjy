@@ -6,7 +6,7 @@ public class C01CustomException {
 		try {
 			menu = getMenu(3);
 		} catch (Exception e) {
-			System.out.println("알수 없는 메뉴를 선택했습니다.");
+			System.out.println("알 수 없는 메뉴를 선택했습니다.");
 			e.printStackTrace();
 		}
 		System.out.println("선택된 메뉴: " + menu);
