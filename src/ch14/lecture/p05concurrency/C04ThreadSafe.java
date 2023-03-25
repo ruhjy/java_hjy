@@ -15,7 +15,7 @@ public class C04ThreadSafe {
 				atomicField.getAndIncrement();
 			}
 		});
-
+		
 		Thread b = new Thread(() -> {
 			for (int i = 0; i < 100000; i++) {
 				field++;
