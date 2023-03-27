@@ -8,6 +8,7 @@ public class C06Annotation {
 
 class MyClass06 {
 
+//	입력하지 않으면 @MyAnnotation06(myAttr = 0)
 	@MyAnnotation06
 	String field1;
 
